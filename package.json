@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react",
+  "name": "create-meet-link",
   "version": "3.1.2",
-  "description": "A chrome extension boilerplate built with React 17 and Webpack 4",
+  "description": "A chrome extension generate meet link",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": ""
   },
   "scripts": {
     "build": "node utils/build.js",

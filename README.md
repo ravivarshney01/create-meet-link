@@ -24,9 +24,11 @@ It is a chrome extension to create a google meeting
 - click on load unpacked and select the build directory in the clone
 - Chrome extentions is installed
 
+![](ss.png)
+
 <details>
   <summary>Chrome Extenstion Boilerplate Docs</summary>
-  
+
 # Chrome Extension Boilerplate with React 17 and Webpack 5
 
 [![npm](https://img.shields.io/npm/v/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)

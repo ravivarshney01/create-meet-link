@@ -1,3 +1,31 @@
+## create-meet-link
+
+It is a chrome extension to create a google meeting
+
+### Features
+
+- Keyboard shortcuts
+- Alt+V to open the extention and Alt+C to create new meet and copy the link
+- Automatic copy new meet url to clipboard
+- Change authuser param to create meet with different account
+
+### How to run it
+
+- clone this repository and change directory to create-meet-link
+  ```
+  git clone https://github.com/ravivarshney01/create-meet-link
+  ```
+  ```
+  cd create-meet-link
+  ```
+- `npm i`
+- `npm start`
+- open chrome://extensions/ and enable developer mode
+- click on load unpacked and select the build directory in the clone
+- Chrome extentions is installed
+
+<details>
+  <summary>Chrome Extenstion Boilerplate Docs</summary>
 # Chrome Extension Boilerplate with React 17 and Webpack 5
 
 [![npm](https://img.shields.io/npm/v/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
@@ -143,3 +171,5 @@ ApiCall({ key: secrets.key });
 ---
 
 Michael Xieyang Liu | [Website](https://lxieyang.github.io)
+
+</details>

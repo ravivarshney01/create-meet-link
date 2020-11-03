@@ -1,3 +1,55 @@
 * {
   margin: 0;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__header__title {
+  font-size: xx-large;
+  padding: 15px;
+}
+
+.app__header__logo {
+  height: 80px;
+  object-fit: contain;
+  padding: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.app__form {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.app__form__label {
+  font-size: large;
+}
+.app__form__input {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.app__button {
+  align-self: center;
+  position: absolute;
+  top: 65%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  color: white;
+}
